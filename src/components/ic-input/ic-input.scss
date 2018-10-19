@@ -1,0 +1,15 @@
+$input-text-color: #a3a3a3;
+
+ic-input {
+  input {
+    width: calc(100% - 8px - 8px);
+    background: #fff;
+    color: $input-text-color;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 14px 18px;
+    margin: 13px 8px;
+  }
+}
